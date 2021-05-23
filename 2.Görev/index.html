@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  body{
+    background-color: blue;
+  }
+        
+    .card{
+    display: block;
+    float: left;
+    width: 540px;
+    height: 540px;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+  color: white;
+}
+.span_{
+  text-align: center;
+  box-sizing: border-box;
+
+  
+  padding-top: 50%;
+  
+
+}
+._body {
+  display: block;
+  height: 900px;
+  float: left;
+}
+    ._1 {
+  width: 150px;
+  height: 150px;
+  background: white;
+  margin: 15px;
+  border-radius: 100px;
+  display: block;
+  float: left;
+}
+.btn {
+float: left;
+    height: 300px;
+    width: 400px;
+    border-color: black;
+    border-style: solid;
+}
+.btn-group .button {
+background: aquamarine;
+border-color: black;
+  border: 2px solid ;  
+  border-radius:10px; 
+  padding: 15px 32px;
+  margin: 15px;	
+  outline: none;
+ text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover {
+  background-color: aquamarine;
+} 
+.column-1 {   float: left; border-left: 20px;   width: 35px; margin: 20px; padding: 25px;   height: 150px; box-sizing: border-box;}
+.column-2 {   float: left;   width: 16.6%;   padding: 10px;   height: auto; box-sizing: border-box;}
+.column-3 {   float: left;   width: 25%;   padding: 10px;   height: auto; box-sizing: border-box;}
+.column-4 {   float: left;   width: 33.33%;   padding: 10px;   height: auto; box-sizing: border-box;}
+.column-5 {   float: left;   width: 41.666%;   padding: 10px;   height: auto; box-sizing: border-box;}
+.column-6 {   float: left;   width: 50%;   padding: 10px;   height: auto; box-sizing: border-box;}
+.column-8 {   float: left;   width: 66.66%;   padding: 10px;   height: auto; box-sizing: border-box;}
+.row:after {   content: "";   display: table;   clear: both; box-sizing: border-box;}
+.row{
+  box-sizing: border-box;
+
+}
+
+    </style>
+</head>
+<body>
+  
+    <div class="row">
+      <div class="column-4"><div class="card"><div style="padding-top: 15%; text-align: center; background-color: cornflowerblue; font-size: 300px;"> <span>Aa</span> </div></div></div>
+      <div class="column-8">
+        <div class="row">
+          <div  class="column-2"><div  class="_1"></div></div>
+          <div class="column-2"><div style="background-color: #bfbfda;"  class="_1"></div></div>
+          <div class="column-2"><div style="background-color:#a4a4d4" class="_1"></div></div>
+          <div class="column-2"><div style="background-color:#8181c9 ;" class="_1"></div></div>
+          <div class="column-2"><div style="background-color:#5858ac ;" class="_1"></div></div>
+        </div>
+        <div class="row">
+          <div class="column-2"><div class="_1"></div></div>
+          <div class="column-2"><div style="background-color: #bfbfda;"  class="_1"></div></div>
+          <div class="column-2"><div style="background-color:#a4a4d4" class="_1"></div></div>
+          <div class="column-2"><div style="background-color:#8181c9 ;" class="_1"></div></div>
+          <div class="column-2"><div style="background-color:#5858ac ;" class="_1"></div></div>
+        </div>
+        <div class="row">
+          <div class="column-2"><div class="_1"></div></div>
+          <div class="column-2"><div style="background-color: #bfbfda;"  class="_1"></div></div>
+          <div class="column-2"><div style="background-color:#a4a4d4" class="_1"></div></div>
+          <div class="column-2"><div style="background-color:#8181c9 ;" class="_1"></div></div>
+          <div class="column-2"><div style="background-color:#5858ac ;" class="_1"></div></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column-4"><div class="row">
+        <div class="column-4"><button style="width: 150px; height: 50px;  border-radius: 15px; " class="button">Default</button>
+        </div>
+        <div class="column-4"><button style="width: 150px; height: 50px;  border-radius: 15px; background-color:#8181c9 ;" class="button">Active</button>
+        </div>
+        <div class="column-4"><button style="width: 150px; height: 50px;  border-radius: 15px; background-color: cadetblue;" class="button">Disable</button>
+        </div>
+      </div><div class="row">
+        <div class="column-4"><button style="width: 150px; height: 50px;  border-radius: 15px; background-color:#5858ac ;" class="button">Default</button>
+        </div>
+        <div class="column-4"><button style="width: 150px; height: 50px;  border-radius: 15px;" class="button">Active</button>
+        </div>
+        <div class="column-4"><button style="width: 150px; height: 50px;  border-radius: 15px; background-color: cornflowerblue;" class="button">Disable</button>
+        </div>
+      </div></div>
+      <div class="column-8">
+        <div style="background-color: cornflowerblue; margin: 5px;" class="column-1"></div>
+        <div style="background-color: cornflowerblue; margin: 5px;" class="column-1"></div>
+        <div style="background-color: cornflowerblue; margin: 5px;" class="column-1"></div>
+        <div style="background-color: cornflowerblue; margin: 5px;" class="column-1"></div>
+        <div style="background-color: cornflowerblue; margin: 5px;" class="column-1"></div>
+        <div style="background-color: cornflowerblue; margin: 5px;" class="column-1"></div>
+        <div style="background-color: cornflowerblue; margin: 5px;" class="column-1"></div>
+        <div style="background-color: cornflowerblue; margin: 5px;" class="column-1"></div>
+        <div style="background-color: cornflowerblue; margin: 5px;" class="column-1"></div>
+        <div style="background-color: cornflowerblue; margin: 5px;" class="column-1"></div>
+        <div style="background-color: cornflowerblue; margin: 5px;" class="column-1"></div>
+        <div style="background-color: cornflowerblue; margin: 5px;" class="column-1"></div>
+        
+      </div>
+    </div>
+        
+      
+   
+  </div>
+     </div>
+     
+
+</body>
+</html>
